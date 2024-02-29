@@ -1,0 +1,143 @@
+#html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Artist's Website</title>
+  <h1 class="lucy">EUNOIA</h1>
+  <h3 class="luca">Beautiful Thinking</h3>
+  <link rel="stylesheet" type="text/css" href="art.css">
+  <style>
+    .hero-section {
+      position: relative;
+      height: 400px; 
+      overflow: hidden;
+    }
+    
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("path/to/your/image.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .tagline {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  
+
+    .logo img {
+      width: 40px; 
+      height: auto; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="IMG_20231126_140416.png" alt="Logo">
+      </div>
+    <nav>
+      <ul>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="creators.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="hero-section">
+    <div class="hero-image"></div>
+    <div class="tagline">
+      <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Welcome to Eunoia</h1>
+      <p style="font-family: Georgia, 'Times New Roman', Times, serif;">Where the beauty and creativity of our featured artworks is unleashed.</p>
+    </div>
+  </div>
+
+</body>
+</html>
+
+#css
+body{
+    margin:0;
+  padding:0;
+  background-image:url("WhatsApp Image 2024-02-29 at 22.43.53_1a17ce13.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+
+}
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .logo h1 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6600;
+  }
+  .lucy{
+    padding: 10px;
+    background-color:#2a5818;
+    text-align: center;
+    color:#8fd9aa;
+    font-size: 50px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .luca{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:#174e4e;
+    border: 2px solid rgb(105, 82, 82);
+    padding: 10px;
+    background-color:  #FFDAB9;
+  }
+  .tagline {
+    background-color: #bdf2d5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+
