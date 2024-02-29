@@ -1,0 +1,23 @@
+#flowchart
+Start
+|
+V
+Home Page --> [Browse Artwork] --> Artwork Gallery Page --> [Select Artwork] --> Artwork Details Page -->[Return to Home]
+            |
+            --> [Search Artwork] --> Search Results Page
+           |
+            --> [About Us] --> About Us Page
+            |
+            --> [Contact Us] --> Contact Us Page
+            |
+            --> [Sign Up / Log In] --> Authentication Page --> [Sign Up] --> Sign Up Page --> [Submit] --> Confirmation Page --> [Return to Home]
+                                         |
+                                         --> [Log In] --> Log In Page --> [Submit] --> Home Page
+                                         |
+                                         --> [Forgot Password] --> Forgot Password Page --> [Submit] --> Reset Password Page --> [Return to Log In]
+                                         |
+                                         --> [Log Out] --> Log Out Confirmation Page --> [Return to Home]
+                                         |
+                                         --> [Profile] --> Profile Page --> [Edit Profile] --> Edit Profile Page --> [Save Changes] --> Profile Updated Page --> [Return to Profile]
+                                         |
+                                         --> [Upload Artwork] --> Upload Artwork Page --> [Submit Artwork] --> Artwork Uploaded Confirmation Page --> [Return to Profile]
